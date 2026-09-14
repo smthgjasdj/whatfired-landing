@@ -7,20 +7,7 @@ export const metadata: Metadata = {
   description: 'See exactly what your Meta Pixel is doing. Whatfired is a Chrome extension for validating, debugging, and understanding Pixel events.',
   generator: 'Whatfired',
   icons: {
-    icon: [
-      {
-        url: '/icon-light-32x32.png',
-        media: '(prefers-color-scheme: light)',
-      },
-      {
-        url: '/icon-dark-32x32.png',
-        media: '(prefers-color-scheme: dark)',
-      },
-      {
-        url: '/icon.svg',
-        type: 'image/svg+xml',
-      },
-    ],
+    icon: '/icon-light-32x32.png',
     apple: '/apple-icon.png',
   },
 }
